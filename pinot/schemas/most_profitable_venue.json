@@ -1,0 +1,21 @@
+{
+    "schemaName": "most_profitable_venue",
+    "dimensionFieldSpecs": [
+      {
+        "name": "currentMaxVenueId",
+        "dataType": "STRING"
+      },
+      {
+        "name": "currentMaxVenueName",
+        "dataType": "STRING"
+      }
+    ],
+    "metricFieldSpecs": [
+      {
+        "name": "currentMaxTotalVenueRevenue",
+        "dataType": "DOUBLE"
+      }
+    ],
+    "dateTimeFieldSpecs": []
+  }
+  
