@@ -1,0 +1,18 @@
+{
+    "schemaName": "most_popular_state",
+    "dimensionFieldSpecs": [
+      { "name": "artistid", "dataType": "STRING" },
+      { "name": "state",    "dataType": "STRING" }
+    ],
+    "metricFieldSpecs": [
+      { "name": "count",      "dataType": "LONG" }
+    ],
+    "dateTimeFieldSpecs": [
+      {
+        "name": "timestamp",
+        "dataType": "TIMESTAMP",
+        "format": "1:MILLISECONDS:EPOCH",
+        "granularity": "1:MILLISECONDS"
+      }
+    ]
+  }
